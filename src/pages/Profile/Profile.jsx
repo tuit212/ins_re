@@ -9,7 +9,7 @@ function Profile() {
                 <Navbar/>
             </div>
             <div className='right'>
-                <h1>profile</h1>
+                <h1>profile assalom</h1>
             </div>
         </div>
     )
