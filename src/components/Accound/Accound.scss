@@ -19,6 +19,14 @@
             cursor: pointer;
         }
 
+        & > p {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0;
+            margin: 10px 0;
+            text-align: center;
+        }
+
         .singUp{
             margin: 20px 0;
             text-align: center;
@@ -60,6 +68,7 @@
                     font-size: 14px;
                     font-weight: 600;
                     color: #999;
+                    cursor: pointer;
                 }
 
                 & > input {
