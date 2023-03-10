@@ -9,7 +9,8 @@ function Home() {
                 <Navbar/>
             </div>
             <div className='right'>
-                <h1>salom</h1>
+                <h1>salom sa</h1>
+                
             </div>
         </div>
     )
