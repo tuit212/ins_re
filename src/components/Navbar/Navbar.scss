@@ -1,0 +1,36 @@
+.navbar{
+
+    .logo{
+        font-size: 25px;
+        font-family: cursive;
+        font-weight: 600;
+        color: #fff;
+        display: block;
+        margin: 10px 0 30px 0px;
+        text-align: left;
+        transition: all 0.4s;
+    }
+
+    .link{
+        padding: 10px 5px;
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 50px;
+        margin-top: 8px;
+        
+        & > i {
+            margin: 0 10px;
+        }
+        
+        &:hover{
+            background-color: rgb(60, 50, 50);
+        }
+    }
+
+    .active{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
