@@ -1,0 +1,91 @@
+.Accound-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .accound{
+        max-width: 400px;
+        width: 100%;
+        padding: 20px 30px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        border-radius: 30px;
+
+        & > h2 {
+            font-size: 26px;
+            font-weight: 500;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .singUp{
+            margin: 20px 0;
+            text-align: center;
+
+            & > span {
+                font-size: 15px;
+                font-weight: 400;
+                color: #999;
+            }
+
+            #singUp{
+                margin-left: 10px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+
+        & > form {
+
+            .btn{
+                cursor: pointer;
+                width: 100%;
+                text-align: center;
+                padding: 7px 0;
+                background-color: rgb(73, 73, 227);
+                border: none;
+                margin-top: 30px;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                border-radius: 5px;
+            }
+
+            .input{
+                margin-top: 12px;
+
+                & > label {
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #999;
+                }
+
+                & > input {
+                    display: block;
+                    margin-top: 5px;
+                    width: 100%;
+                    padding: 7px 20px 7px 10px;
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                    border: 1px solid #999;
+
+                    &::placeholder{
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+
+                    &:focus{
+                        border: 1px solid rgb(213, 38, 38);
+
+                        &::placeholder{
+                            color: rgb(213, 38, 38);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
